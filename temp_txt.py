@@ -12,5 +12,5 @@ blue = [0,0,255]
 temp = round(sense.get_temperature(),2)
 temp_str = 'Temp: ' + str(temp)
 
-sense.show_message(temp_str,0.2, green)
+sense.show_message(temp_str,0.1, green)
 
